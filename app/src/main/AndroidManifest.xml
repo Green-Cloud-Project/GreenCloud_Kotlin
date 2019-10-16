@@ -13,7 +13,8 @@
         <activity android:name=".OnboardingActivity"></activity>
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/AppTheme.SplashScreen">
+            android:theme="@style/AppTheme.SplashScreen"
+            android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
